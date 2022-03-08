@@ -1,0 +1,16 @@
+{
+    "list_scripts" : [
+        {
+            "name": "hello.py",
+            "funcs": ["say_hello"]
+        },
+        {
+            "name": "goodbye.py",
+            "funcs": ["say_goodbye", "say_goodbye_2"]
+        },
+        {
+            "name": "welcome.py",
+            "funcs": ["say_welcome"]
+        }
+    ]
+}
