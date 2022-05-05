@@ -1,8 +1,5 @@
 # -*- mode: python ; coding: utf-8 -*-
-
-
 block_cipher = None
-
 
 a = Analysis(['main.py'],
              pathex=[],
@@ -29,7 +26,7 @@ exe = EXE(pyz,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
-          console=True,
+          console=False,
           disable_windowed_traceback=False,
           target_arch=None,
           codesign_identity=None,

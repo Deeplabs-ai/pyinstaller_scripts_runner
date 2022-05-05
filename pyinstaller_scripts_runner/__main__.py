@@ -6,6 +6,7 @@ import creopyson
 
 def main():
     main_path = os.path.dirname(os.path.realpath(__file__))
+    os.chdir(os.path.dirname(main_path))
 
     with open(os.path.join(main_path, "scripts", "spec.json")) as f:
         spec = json.load(f)
